@@ -7,6 +7,8 @@ import net.thucydides.core.annotations.WithTag;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import steps.ui.FindFlightsUISteps;
 import steps.ui.GithubLoginUISteps;
 
