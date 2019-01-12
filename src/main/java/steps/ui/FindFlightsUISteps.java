@@ -6,6 +6,7 @@ import net.thucydides.core.annotations.Step;
 public class FindFlightsUISteps {
     public HomePage homePage;
 
+
     @Step
     public void findFlights() {
         homePage.findFlights();

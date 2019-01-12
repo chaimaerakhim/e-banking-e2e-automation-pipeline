@@ -12,9 +12,11 @@ public class BlazeDemoAPITest {
     @Steps
     FindFlightsAPISteps findFlightsAPISteps;
 
+
     @Test
     @WithTag(type="type", name="API")
     public void verifyFlightsSearchWithAPI() {
         findFlightsAPISteps.findFlights();
     }
+
 }

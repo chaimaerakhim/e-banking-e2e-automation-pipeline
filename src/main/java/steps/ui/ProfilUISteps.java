@@ -1,12 +1,12 @@
 package steps.ui;
 
 import net.thucydides.core.annotations.Step;
-import pages.HomePage;
 import pages.LoginPage;
 
-public class GithubLoginUISteps {
+public class ProfilUISteps {
 
     public LoginPage loginPage;
+
 
     @Step
     public void GithubLogin() {
